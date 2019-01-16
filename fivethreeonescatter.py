@@ -40,7 +40,7 @@ slope3, intercept3, r_value3, p_value3, std_err3 = stats.linregress(x, FTO.iloc[
 line3=slope3*x+intercept3
 plt.plot(line3)
 
-plt.show()
+# plt.show()
 
 # Save Plot
 plt.savefig('2018scatter.png')
