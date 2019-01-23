@@ -27,5 +27,5 @@ def calculate_one_rep_max(weight, reps):
         return one_rep_max
 
 
-# output = calculate_one_rep_max(input("Enter weight in pounds or kilograms: "), input("Enter amount of reps performed: "))
-# print("Your one rep max estimate is: "+str(output))
+output = calculate_one_rep_max(input("Enter weight in pounds or kilograms: "), input("Enter amount of reps performed: "))
+print("Your one rep max estimate is: "+str(output))
