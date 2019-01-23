@@ -10,8 +10,8 @@ def calculate_one_rep_max(weight, reps):
         weight_lifted=float(input("Weight must be greater than zero. Enter a weight greater than zero: "))
     
     total_reps=float(reps)
-    while total_reps<0:
-        total_reps=float(input("Reps must be greater than zero. Enter amount of reps greater than zero: "))
+    while total_reps<0 or total_reps > 10:
+        total_reps=float(input("Reps must be greater than zero or less than 10. Enter amount of reps between zero and 10: "))
 
     brzycki=weight_lifted*(36/(37-total_reps))
     lombardi=weight_lifted*total_reps**0.1
