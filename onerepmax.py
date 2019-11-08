@@ -26,6 +26,6 @@ def calculate_one_rep_max(weight, reps):
         one_rep_max=int((brzycki+lombardi+wendler)/3)
         return one_rep_max
 
-
-output = calculate_one_rep_max(input("Enter weight in pounds or kilograms: "), input("Enter amount of reps performed: "))
-print("Your one rep max estimate is: "+str(output))
+if __name__ == '__main__':
+    output = calculate_one_rep_max(input("Enter weight in pounds or kilograms: "), input("Enter amount of reps performed: "))
+    print("Your one rep max estimate is: "+str(output))
